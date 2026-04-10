@@ -123,23 +123,59 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SITE-01 – SITE-08 | Phase 1 | Pending |
-| NAV-01 – NAV-04 | Phase 1 | Pending |
-| HERO-01 – HERO-03 | Phase 2 | Pending |
-| SERV-01 – SERV-04 | Phase 2 | Pending |
-| PROC-01 – PROC-02 | Phase 2 | Pending |
-| ABOUT-01 – ABOUT-04 | Phase 2 | Pending |
-| AREA-01 – AREA-03 | Phase 2 | Pending |
-| SOCIAL-01 – SOCIAL-03 | Phase 2 | Pending |
-| CONTACT-01 – CONTACT-04 | Phase 2 | Pending |
-| SEO-01 – SEO-07 | Phase 3 | Pending |
-| DEPLOY-01 – DEPLOY-05 | Phase 3 | Pending |
+| SITE-01 | Phase 1 | Pending |
+| SITE-02 | Phase 1 | Pending |
+| SITE-03 | Phase 1 | Pending |
+| SITE-04 | Phase 1 | Pending |
+| SITE-05 | Phase 1 | Pending |
+| SITE-06 | Phase 1 | Pending |
+| SITE-07 | Phase 1 | Pending |
+| SITE-08 | Phase 1 | Pending |
+| NAV-01 | Phase 1 | Pending |
+| NAV-02 | Phase 1 | Pending |
+| NAV-03 | Phase 1 | Pending |
+| NAV-04 | Phase 1 | Pending |
+| DEPLOY-01 | Phase 1 | Pending |
+| HERO-01 | Phase 2 | Pending |
+| HERO-02 | Phase 2 | Pending |
+| HERO-03 | Phase 2 | Pending |
+| SERV-01 | Phase 2 | Pending |
+| SERV-02 | Phase 2 | Pending |
+| SERV-03 | Phase 2 | Pending |
+| SERV-04 | Phase 2 | Pending |
+| PROC-01 | Phase 2 | Pending |
+| PROC-02 | Phase 2 | Pending |
+| ABOUT-01 | Phase 2 | Pending |
+| ABOUT-02 | Phase 2 | Pending |
+| ABOUT-03 | Phase 2 | Pending |
+| ABOUT-04 | Phase 2 | Pending |
+| AREA-01 | Phase 2 | Pending |
+| AREA-02 | Phase 2 | Pending |
+| AREA-03 | Phase 2 | Pending |
+| SOCIAL-01 | Phase 2 | Pending |
+| SOCIAL-02 | Phase 2 | Pending |
+| SOCIAL-03 | Phase 2 | Pending |
+| CONTACT-01 | Phase 2 | Pending |
+| CONTACT-02 | Phase 2 | Pending |
+| CONTACT-03 | Phase 2 | Pending |
+| CONTACT-04 | Phase 2 | Pending |
+| SEO-01 | Phase 3 | Pending |
+| SEO-02 | Phase 3 | Pending |
+| SEO-03 | Phase 3 | Pending |
+| SEO-04 | Phase 3 | Pending |
+| SEO-05 | Phase 3 | Pending |
+| SEO-06 | Phase 3 | Pending |
+| SEO-07 | Phase 3 | Pending |
+| DEPLOY-02 | Phase 3 | Pending |
+| DEPLOY-03 | Phase 3 | Pending |
+| DEPLOY-04 | Phase 3 | Pending |
+| DEPLOY-05 | Phase 3 | Pending |
 
 **Coverage:**
-- v1 requirements: 40 total
-- Mapped to phases: 40
-- Unmapped: 0 ✓
+- v1 requirements: 47 total
+- Mapped to phases: 47
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-09*
-*Last updated: 2026-04-09 after initial definition*
+*Last updated: 2026-04-09 after roadmap creation (traceability updated; requirement count corrected from 40 to 47)*
