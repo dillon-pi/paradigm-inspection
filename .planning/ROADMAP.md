@@ -28,7 +28,9 @@
   3. At 390px width, the nav links collapse to a hamburger icon and the menu opens and closes smoothly with no layout breaks
   4. The brand palette (black, cream, orange) and type pairing (Playfair Display for headings, Inter for body) are applied site-wide via CSS custom properties
   5. All content section stubs exist in index.html with anchor IDs, and a 404.html page exists with the site nav and phone number
-**Plans:** TBD
+**Plans:** 1 plan
+Plans:
+- [ ] 01-01-PLAN.md — Site shell with brand CSS, responsive sticky header, section stubs, 404 page, and .nojekyll
 **UI hint:** yes
 
 ---
