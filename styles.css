@@ -1,0 +1,332 @@
+/* =====================================================================
+   Paradigm Inspection — styles.css
+   Brand token system, layout, responsive design
+   ===================================================================== */
+
+/* =====================================================================
+   Section 1 — CSS Custom Properties (Design Tokens)
+   ===================================================================== */
+:root {
+  /* Colors */
+  --color-black: #0A0A0A;
+  --color-cream: #F5EDD6;
+  --color-orange: #E07A2F;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Font Sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Line Heights */
+  --line-height-body: 1.5;
+  --line-height-heading: 1.2;
+}
+
+/* =====================================================================
+   Section 2 — Reset / Base
+   ===================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-body);
+  color: var(--color-black);
+  background-color: var(--color-cream);
+}
+
+/* =====================================================================
+   Section 3 — Header
+   ===================================================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-black);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  height: 72px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-height: 48px;
+  width: auto;
+}
+
+.header-phone {
+  font-family: var(--font-body);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-orange);
+  text-decoration: none;
+  transition: text-decoration 200ms ease;
+}
+
+.header-phone:hover {
+  text-decoration: underline;
+}
+
+/* =====================================================================
+   Section 4 — Navigation (Desktop)
+   ===================================================================== */
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+}
+
+.nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  padding: var(--space-sm) var(--space-xs);
+  border-bottom: 2px solid transparent;
+  transition: color 200ms ease, border-bottom-color 200ms ease;
+}
+
+.nav-link:hover {
+  color: var(--color-orange);
+  border-bottom-color: var(--color-orange);
+}
+
+/* Phone link inside nav — hidden on desktop */
+.nav-phone {
+  display: none;
+}
+
+/* Hamburger toggle — hidden on desktop */
+.nav-toggle {
+  display: none;
+}
+
+/* =====================================================================
+   Section 5 — Mobile Navigation (max-width: 768px)
+   ===================================================================== */
+@media (max-width: 768px) {
+  .header-inner {
+    height: 60px;
+  }
+
+  /* Hide desktop phone in header — moves into hamburger menu */
+  .header-phone {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 200ms ease;
+  }
+
+  .nav-toggle:hover {
+    color: var(--color-orange);
+  }
+
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--color-black);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  /* Open state — toggled by JS adding nav-open to .site-header */
+  .site-header.nav-open .main-nav {
+    display: flex;
+  }
+
+  /* Phone link inside mobile menu */
+  .nav-phone {
+    display: block;
+    padding: var(--space-md) var(--space-lg);
+    color: var(--color-orange);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+  }
+
+  /* Mobile nav links — enlarged for touch targets */
+  .nav-link {
+    padding: var(--space-md) var(--space-lg);
+    color: var(--color-cream);
+    border-bottom: none;
+  }
+
+  .nav-link:hover {
+    color: var(--color-orange);
+    border-bottom-color: transparent;
+  }
+}
+
+/* =====================================================================
+   Section 6 — Section Stubs
+   ===================================================================== */
+.section {
+  min-height: 320px;
+  padding: var(--space-2xl) var(--space-lg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section--hero {
+  min-height: 100vh;
+  background-color: var(--color-black);
+  color: var(--color-cream);
+}
+
+.section--tinted {
+  background-color: rgba(10, 10, 10, 0.04);
+}
+
+.section h2 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading);
+  margin-bottom: var(--space-md);
+}
+
+/* =====================================================================
+   Section 7 — Footer
+   ===================================================================== */
+.site-footer {
+  background-color: var(--color-black);
+  color: var(--color-cream);
+  padding: var(--space-2xl) var(--space-lg);
+  min-height: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+}
+
+.footer-logo {
+  max-height: 40px;
+  width: auto;
+  margin-bottom: var(--space-md);
+}
+
+.site-footer a {
+  color: var(--color-orange);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* =====================================================================
+   Section 8 — 404 Error Page
+   ===================================================================== */
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 72px);
+  padding: var(--space-2xl) var(--space-lg);
+  text-align: center;
+  background-color: var(--color-cream);
+}
+
+.error-page h1 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading);
+  margin-bottom: var(--space-md);
+  color: var(--color-black);
+}
+
+.error-page p {
+  margin-bottom: var(--space-md);
+  max-width: 480px;
+}
+
+.error-cta {
+  color: var(--color-orange);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+}
+
+.error-cta:hover {
+  text-decoration: underline;
+}
+
+/* =====================================================================
+   Section 9 — Accessibility
+   ===================================================================== */
+:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 2px;
+}
+
+/* =====================================================================
+   Section 10 — Scroll Offset for Sticky Header
+   ===================================================================== */
+section[id] {
+  scroll-margin-top: 76px;
+}
+
+@media (max-width: 768px) {
+  section[id] {
+    scroll-margin-top: 64px;
+  }
+}
