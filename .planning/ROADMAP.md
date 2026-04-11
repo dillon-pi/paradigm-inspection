@@ -10,7 +10,7 @@
 
 ## Phases
 
-- [ ] **Phase 1: Foundation** — HTML skeleton, brand system, responsive nav, 404 page, and live GitHub Pages deployment
+- [x] **Phase 1: Foundation** — HTML skeleton, brand system, responsive nav, 404 page, and live GitHub Pages deployment (completed 2026-04-11)
 - [ ] **Phase 2: Content and Visual Design** — All content sections built and styled with full brand treatment
 - [ ] **Phase 3: SEO, Assets, and Handoff** — Local SEO markup, favicon, deployment files, and owner handoff docs
 
@@ -28,9 +28,9 @@
   3. At 390px width, the nav links collapse to a hamburger icon and the menu opens and closes smoothly with no layout breaks
   4. The brand palette (black, cream, orange) and type pairing (Playfair Display for headings, Inter for body) are applied site-wide via CSS custom properties
   5. All content section stubs exist in index.html with anchor IDs, and a 404.html page exists with the site nav and phone number
-**Plans:** 1 plan
+**Plans:** 1/1 plans complete
 Plans:
-- [ ] 01-01-PLAN.md — Site shell with brand CSS, responsive sticky header, section stubs, 404 page, and .nojekyll
+- [x] 01-01-PLAN.md — Site shell with brand CSS, responsive sticky header, section stubs, 404 page, and .nojekyll
 **UI hint:** yes
 
 ---
@@ -68,7 +68,7 @@ Plans:
 
 | Phase | Name | Status | Completed |
 |-------|------|--------|-----------|
-| 1 | Foundation | Not started | — |
+| 1 | 1/1 | Complete   | 2026-04-11 |
 | 2 | Content and Visual Design | Not started | — |
 | 3 | SEO, Assets, and Handoff | Not started | — |
 
