@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -42,24 +43,100 @@
   <main>
 
     <section id="hero" class="section section--hero">
-      <!-- [PHASE 2] Hero content goes here -->
-      <!-- [PLACEHOLDER] Replace with final section content -->
-      <h2>Protecting Your Investment,<br>One Inspection at a Time</h2>
-      <p>[PLACEHOLDER] Compelling hero subtext and call-to-action goes here.</p>
+      <div class="hero-content" data-aos="fade-up">
+        <!-- [PLACEHOLDER] Replace headline with your tagline if desired -->
+        <h1 class="hero-headline">Protecting Your Investment,<br>One Inspection at a Time</h1>
+        <!-- [PLACEHOLDER] Update subheadline county list if your service area changes -->
+        <p class="hero-sub">Serving Palm Beach, Broward, Miami-Dade &amp; Monroe Counties &mdash; South Florida's trusted licensed home inspector</p>
+        <div class="hero-ctas">
+          <!-- [PLACEHOLDER] Replace [YOUR-PHONE] with your actual phone number -->
+          <a href="tel:[YOUR-PHONE]" class="btn btn--primary">Call Now</a>
+          <!-- [PLACEHOLDER] Replace [YOUR-EMAIL] with your actual email address -->
+          <a href="mailto:[YOUR-EMAIL]" class="btn btn--secondary">Send Email</a>
+        </div>
+      </div>
     </section>
 
     <section id="services" class="section">
-      <!-- [PHASE 2] Services section content goes here -->
-      <!-- [PLACEHOLDER] Replace with final section content -->
-      <h2>Services</h2>
-      <p>[PLACEHOLDER] Services overview content goes here.</p>
+      <div class="section-inner">
+        <h2 data-aos="fade-up">Our Services</h2>
+        <div class="services-grid">
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="service-icon-badge">
+              <i data-lucide="home"></i>
+            </div>
+            <h3>Residential Inspections</h3>
+            <!-- [PLACEHOLDER] Replace with your own benefit-focused description of residential inspection services -->
+            <p>Comprehensive home inspections covering structural systems, electrical, plumbing, HVAC, roofing, and more. Buying or selling, you deserve full transparency on the condition of the property.</p>
+            <a href="#contact" class="card-cta">Get in Touch &rarr;</a>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-icon-badge">
+              <i data-lucide="building-2"></i>
+            </div>
+            <h3>Commercial Inspections</h3>
+            <!-- [PLACEHOLDER] Replace with your own benefit-focused description of commercial inspection services -->
+            <p>Detailed inspections for commercial properties including office buildings, retail spaces, and multi-unit complexes. Protect your investment with a thorough assessment before closing.</p>
+            <a href="#contact" class="card-cta">Get in Touch &rarr;</a>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-icon-badge">
+              <i data-lucide="microscope"></i>
+            </div>
+            <h3>Specialty Inspections</h3>
+            <!-- [PLACEHOLDER] The list below can be expanded or reordered to match your offerings -->
+            <p>Specialized testing and inspections for: <strong>mold, radon, sewer, pool,</strong> and <strong>roof</strong> systems. When standard inspections aren't enough, we dig deeper to uncover hidden issues.</p>
+            <a href="#contact" class="card-cta">Get in Touch &rarr;</a>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-icon-badge">
+              <i data-lucide="hard-hat"></i>
+            </div>
+            <h3>New Construction Inspections</h3>
+            <!-- [PLACEHOLDER] Replace with your own benefit-focused description of new construction inspection services -->
+            <p>Phase inspections during new construction to catch defects before drywall goes up. An independent set of eyes ensures the builder meets code and your expectations.</p>
+            <a href="#contact" class="card-cta">Get in Touch &rarr;</a>
+          </div>
+
+        </div>
+      </div>
     </section>
 
     <section id="how-it-works" class="section section--tinted">
-      <!-- [PHASE 2] How It Works section content goes here -->
-      <!-- [PLACEHOLDER] Replace with final section content -->
-      <h2>How It Works</h2>
-      <p>[PLACEHOLDER] Process overview content goes here.</p>
+      <div class="section-inner">
+        <h2 data-aos="fade-up">How It Works</h2>
+        <div class="steps-list">
+
+          <div class="step" data-aos="fade-up" data-aos-delay="0">
+            <div class="step-number">1</div>
+            <i data-lucide="calendar-check"></i>
+            <h3>Schedule</h3>
+            <!-- [PLACEHOLDER] Replace with your own scheduling process description -->
+            <p>Call or email to book your inspection at a time that works for you. Same-week availability for most property types.</p>
+          </div>
+
+          <div class="step" data-aos="fade-up" data-aos-delay="100">
+            <div class="step-number">2</div>
+            <i data-lucide="clipboard-list"></i>
+            <h3>Inspect</h3>
+            <!-- [PLACEHOLDER] Replace with your own inspection process description -->
+            <p>A thorough, on-site inspection covering every major system. You're welcome to walk along and ask questions in real time.</p>
+          </div>
+
+          <div class="step" data-aos="fade-up" data-aos-delay="200">
+            <div class="step-number">3</div>
+            <i data-lucide="file-text"></i>
+            <h3>Report</h3>
+            <!-- [PLACEHOLDER] Replace with your own report delivery description -->
+            <p>Receive a detailed, photo-rich digital report within 24 hours. Clear findings, no jargon, and a direct line to your inspector for follow-up questions.</p>
+          </div>
+
+        </div>
+      </div>
     </section>
 
     <section id="about" class="section">
@@ -100,6 +177,11 @@
     <!-- [PHASE 2] Footer content goes here -->
   </footer>
 
+  <script src="https://unpkg.com/lucide@1.8.0/dist/umd/lucide.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="script.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
 </html>

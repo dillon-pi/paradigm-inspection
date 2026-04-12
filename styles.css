@@ -233,6 +233,205 @@ body {
   background-color: rgba(10, 10, 10, 0.04);
 }
 
+/* =====================================================================
+   Section 6a -- Hero
+   ===================================================================== */
+.section--hero {
+  background: linear-gradient(to bottom, #0A0A0A 0%, #1a0e08 60%, #2d1810 100%);
+  justify-content: center;
+}
+
+.hero-content {
+  max-width: 760px;
+  text-align: center;
+}
+
+.hero-headline {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-cream);
+  line-height: var(--line-height-heading);
+  margin-bottom: var(--space-lg);
+}
+
+.hero-sub {
+  font-size: var(--font-size-lg);
+  color: var(--color-orange);
+  margin-bottom: var(--space-2xl);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* =====================================================================
+   Section 6b -- Shared Button Styles
+   ===================================================================== */
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-base);
+  text-decoration: none;
+  min-width: 44px;
+  min-height: 44px;
+  cursor: pointer;
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+
+.btn--primary {
+  background-color: var(--color-orange);
+  color: #FFFFFF;
+  border: 2px solid var(--color-orange);
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: var(--color-cream);
+  border: 2px solid var(--color-cream);
+}
+
+.btn:hover {
+  opacity: 0.88;
+  transform: translateY(-2px);
+}
+
+/* =====================================================================
+   Section 6c -- Section Inner Wrapper
+   ===================================================================== */
+.section-inner {
+  width: 100%;
+  max-width: 960px;
+}
+
+/* =====================================================================
+   Section 6d -- Service Cards Grid
+   ===================================================================== */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-xl);
+  width: 100%;
+  max-width: 900px;
+  margin: var(--space-2xl) auto 0;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.service-card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  padding: var(--space-xl);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--color-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.service-icon-badge svg {
+  width: 24px;
+  height: 24px;
+  color: #FFFFFF;
+  stroke: #FFFFFF;
+}
+
+.service-card h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.card-cta {
+  color: var(--color-orange);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.card-cta:hover {
+  text-decoration: underline;
+}
+
+/* =====================================================================
+   Section 6e -- How It Works Steps
+   ===================================================================== */
+.steps-list {
+  display: flex;
+  gap: var(--space-2xl);
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: var(--space-2xl) auto 0;
+}
+
+.step {
+  flex: 1 1 220px;
+  max-width: 260px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.step-number {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--color-orange);
+  color: #FFFFFF;
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.step > svg {
+  width: 32px;
+  height: 32px;
+  color: var(--color-orange);
+  stroke: var(--color-orange);
+}
+
 .section h2 {
   font-family: var(--font-heading);
   font-size: var(--font-size-lg);
