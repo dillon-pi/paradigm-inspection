@@ -2,13 +2,13 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: verifying
-last_updated: "2026-04-12T17:07:20.264Z"
+status: executing
+last_updated: "2026-04-12T23:21:56.227Z"
 progress:
   total_phases: 3
-  completed_phases: 2
-  total_plans: 4
-  completed_plans: 4
+  completed_phases: 3
+  total_plans: 8
+  completed_plans: 8
   percent: 100
 ---
 
@@ -16,8 +16,9 @@ progress:
 
 **Project:** Paradigm Inspection Website
 **Milestone:** v1 — Launch
-**Status:** Phase complete — ready for verification
-**Last updated:** 2026-04-11
+**Status:** Executing Phase 03 — Plan 02 complete
+**Last updated:** 2026-04-12
+**Stopped at:** Completed 03-02-PLAN.md
 
 ---
 
@@ -26,7 +27,7 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-09)
 
 **Core value:** A potential client who finds this site should come away trusting the inspector and knowing exactly how to reach him.
-**Current focus:** Phase 02 — Content and Visual Design
+**Current focus:** Phase 03 — seo-assets-and-handoff
 
 ---
 
@@ -42,8 +43,8 @@ See: .planning/PROJECT.md (updated 2026-04-09)
 
 ## Current Position
 
-Phase: 02 (Content and Visual Design) — EXECUTING
-Plan: 3 of 3
+Phase: 03 (seo-assets-and-handoff) — EXECUTING
+Plan: 2 of 4
 **Active phase:** 2 — Content and Visual Design (next)
 **Active plan:** None (Phase 1 complete, Phase 2 not yet started)
 **Overall progress:** 1/3 phases complete
@@ -69,6 +70,7 @@ Phase 3 [          ] 0%
 | Phase 01-foundation P01 | 2 | 3 tasks | 5 files |
 | Phase 02-content-and-visual-design P01 | 15 | 2 tasks | 2 files |
 | Phase 02-content-and-visual-design P02 | 8 | 2 tasks | 2 files |
+| Phase 03-seo-assets-and-handoff P02 | 10 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -85,6 +87,9 @@ Phase 3 [          ] 0%
 | Phone + email + social as contact (no booking widget) | Owner handles scheduling directly; reduces complexity | Confirmed |
 | Formspree for contact form (CONTACT-02) | No backend; Formspree free tier covers low-volume v1 needs | Confirmed |
 | Coarse granularity — 3 phases | 40 requirements collapse naturally into Foundation / Content+Polish / SEO+Handoff at coarse compression | Confirmed |
+| HomeAndConstructionBusiness @type for JSON-LD | No dedicated HomeInspector type in schema.org; HomeAndConstructionBusiness is most specific applicable type | Confirmed (03-02) |
+| Omit address from LocalBusiness JSON-LD | Service-area business with no public office — adding address would mislead clients | Confirmed (03-02) |
+| Favicon binaries deferred to owner | Claude cannot run realfavicongenerator.net (browser-based); link tags added, owner instructed via HTML comments and LAUNCH-CHECKLIST.md | Confirmed (03-02) |
 
 ### Open Questions
 

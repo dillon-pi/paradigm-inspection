@@ -75,9 +75,9 @@
 - [ ] **SEO-02**: Meta description (155 chars max) includes service types and all four county names
 - [ ] **SEO-03**: Open Graph tags are set: `og:title`, `og:description`, `og:url`, `og:image` (branded 1200×630 fallback using CSS/text)
 - [ ] **SEO-04**: All `<img>` elements have descriptive, locally-relevant `alt` text
-- [ ] **SEO-05**: LocalBusiness JSON-LD schema is included in `<head>` with name, telephone, email, areaServed (all four counties), serviceType, and url
+- [x] **SEO-05**: LocalBusiness JSON-LD schema is included in `<head>` with name, telephone, email, areaServed (all four counties), serviceType, and url
 - [ ] **SEO-06**: `<link rel="canonical">` tag is set to the site's primary URL
-- [ ] **SEO-07**: Favicon is generated from the logo mark and linked in `<head>`
+- [x] **SEO-07**: Favicon is generated from the logo mark and linked in `<head>`
 
 ### Deployment & Handoff
 
@@ -163,9 +163,9 @@
 | SEO-02 | Phase 3 | Pending |
 | SEO-03 | Phase 3 | Pending |
 | SEO-04 | Phase 3 | Pending |
-| SEO-05 | Phase 3 | Pending |
+| SEO-05 | Phase 3 | Complete |
 | SEO-06 | Phase 3 | Pending |
-| SEO-07 | Phase 3 | Pending |
+| SEO-07 | Phase 3 | Complete |
 | DEPLOY-02 | Phase 3 | Pending |
 | DEPLOY-03 | Phase 3 | Pending |
 | DEPLOY-04 | Phase 3 | Pending |
