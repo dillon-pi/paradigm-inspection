@@ -126,7 +126,7 @@ Now update your website:
 2. Click the **pencil icon** (Edit this file) near the top-right of the file view
 3. Press **Ctrl+F** (Windows) or **Cmd+F** (Mac) to open the browser's Find function
 4. Search for `YOUR-FORMSPREE-ID`
-5. You will find it on **line 307**: `action="https://formspree.io/f/[YOUR-FORMSPREE-ID]"`
+5. You will find it on **line 345**: `action="https://formspree.io/f/[YOUR-FORMSPREE-ID]"`
 6. Replace `[YOUR-FORMSPREE-ID]` (including the square brackets) with the form ID you copied from Formspree. Example result: `action="https://formspree.io/f/abcdef12"`
 7. Scroll down, click **Commit changes**, confirm in the popup, and click **Commit changes** again
 
@@ -154,12 +154,12 @@ Replace `[YOUR-PHONE]` with your actual phone number (format: `561-555-1234` wit
 
 Edit **index.html** and replace the phone placeholder in these locations:
 
-- **Line 42** — Header phone link (desktop, top of page)
-- **Line 52** — Mobile navigation phone link (appears in hamburger menu)
-- **Line 74** — Hero section "Call Now" button
-- **Line 196** — About section "Call Now" button
-- **Line 286** — Contact section phone link
-- **Line 335** — Footer phone link
+- **Line 80** — Header phone link (desktop, top of page)
+- **Line 90** — Mobile navigation phone link (appears in hamburger menu)
+- **Line 112** — Hero section "Call Now" button
+- **Line 234** — About section "Call Now" button
+- **Line 324** — Contact section phone link
+- **Line 373** — Footer phone link
 
 That is 6 places in index.html. Also edit **404.html** (the page visitors see if they hit a broken link):
 
@@ -167,7 +167,7 @@ That is 6 places in index.html. Also edit **404.html** (the page visitors see if
 - **Line 31** — 404 mobile navigation phone link
 - **Line 46** — 404 error page phone link
 
-**Note:** If you add JSON-LD structured data to your site's `<head>` section later, there will also be a `telephone` field there to update.
+**Note:** The `<head>` section of index.html also contains a JSON-LD structured data block (around line 34) with a `telephone` field to fill in before going live.
 
 ### Email Address
 
@@ -175,12 +175,12 @@ Replace `[YOUR-EMAIL]` with your actual email address. Also replace the display 
 
 Edit **index.html** and replace the email placeholder in these locations:
 
-- **Line 76** — Hero section "Send Email" button
-- **Line 198** — About section "Send Email" button
-- **Line 291** — Contact section email link
-- **Line 337** — Footer email link
+- **Line 114** — Hero section "Send Email" button
+- **Line 236** — About section "Send Email" button
+- **Line 329** — Contact section email link
+- **Line 375** — Footer email link
 
-That is 4 places in index.html. As with phone, if you add JSON-LD later there is also an `email` field to update.
+That is 4 places in index.html. The JSON-LD structured data block (around line 34) also has an `email` field to fill in before going live.
 
 ---
 
@@ -189,13 +189,13 @@ That is 4 places in index.html. As with phone, if you add JSON-LD later there is
 ### Inspector Name
 
 1. Open **index.html** for editing (pencil icon)
-2. Find **line 176**: `<h3>[INSPECTOR NAME]</h3>`
+2. Find **line 214**: `<h3>[INSPECTOR NAME]</h3>`
 3. Replace `[INSPECTOR NAME]` with your full name. Example: `<h3>James Rodriguez</h3>`
 4. Commit the change
 
 ### Personal Bio
 
-1. Find **line 181** in index.html. You will see a paragraph beginning with `[Write 2-3 sentences about yourself here...]`
+1. Find **line 219** in index.html. You will see a paragraph beginning with `[Write 2-3 sentences about yourself here...]`
 2. Replace the entire bracketed paragraph with your real bio. Keep it to 2 to 3 sentences. Include your background, what drew you to home inspection, and a personal detail that builds connection (local roots, family, etc.)
 3. Commit the change
 
@@ -207,7 +207,7 @@ Your website has a placeholder box where your headshot will go. To replace it wi
 2. Name the file `headshot.jpg` (or `headshot.png`)
 3. In your GitHub repository, click **Add file** > **Upload files** and upload your photo
 4. Commit the upload with a message like `Add headshot photo`
-5. Open **index.html** for editing and find **lines 168 to 172**. You will see a `<div class="about-photo-placeholder">` block.
+5. Open **index.html** for editing and find **line 206**. You will see a `<div class="about-photo-placeholder">` block.
 6. Replace that entire `<div>` block with: `<img src="headshot.jpg" alt="[Your Name], Licensed Home Inspector" class="about-photo">`
 7. Replace `[Your Name]` with your actual name in the alt text
 8. Commit the change
@@ -219,9 +219,9 @@ Your website has a placeholder box where your headshot will go. To replace it wi
 Your Florida Home Inspector license number appears in two places on the site.
 
 1. Open **index.html** for editing
-2. Find **line 184**: `Florida Licensed Home Inspector &mdash; License #[HI-XXXXX]`
+2. Find **line 222**: `Florida Licensed Home Inspector &mdash; License #[HI-XXXXX]`
 3. Replace `[HI-XXXXX]` with your actual license number. Example: `HI-12345`
-4. Find **line 352**: same license text in the footer
+4. Find **line 390**: same license text in the footer
 5. Replace `[HI-XXXXX]` there as well
 6. Commit the change
 
@@ -235,7 +235,7 @@ Once you receive your InterNACHI or ASHI certification, you can display the badg
 
 1. Download the official badge image from **internachi.org** or **ashi.org** (check your member dashboard)
 2. Upload the badge image to your GitHub repository (Add file > Upload files)
-3. Open **index.html** and find **lines 188 to 192**. You will see a `<div class="cert-badge-placeholder">` block.
+3. Open **index.html** and find **line 226**. You will see a `<div class="cert-badge-placeholder">` block.
 4. Replace that entire block with an image tag pointing to your badge file
 5. Commit the change
 
@@ -249,9 +249,9 @@ Your website shows three review cards. Replace each one with a real review from 
 
 The review placeholders are at these lines in **index.html**:
 
-- **Testimonial 1:** review text on line 249, reviewer name and date on line 250
-- **Testimonial 2:** review text on line 255, reviewer name and date on line 256
-- **Testimonial 3:** review text on line 261, reviewer name and date on line 262
+- **Testimonial 1:** review text on line 287, reviewer name and date on line 288
+- **Testimonial 2:** review text on line 293, reviewer name and date on line 294
+- **Testimonial 3:** review text on line 299, reviewer name and date on line 300
 
 For each review card:
 
@@ -261,7 +261,7 @@ For each review card:
 
 Also update the Google Business review link:
 
-- Find **line 270**: `href="[YOUR_GOOGLE_BUSINESS_URL]"`
+- Find **line 308**: `href="[YOUR_GOOGLE_BUSINESS_URL]"`
 - Replace `[YOUR_GOOGLE_BUSINESS_URL]` with your Google Business Profile review link. To find it: log in to your Google Business Profile, go to Home, look for "Get more reviews", and copy the link shown there.
 
 ---
@@ -272,8 +272,8 @@ Also update the Google Business review link:
 
 Replace `[YOUR_INSTAGRAM_HANDLE]` (without the @ symbol) in two places:
 
-- **Line 295** — Contact section Instagram link
-- **Line 342** — Footer Instagram link
+- **Line 333** — Contact section Instagram link
+- **Line 380** — Footer Instagram link
 
 Example: if your handle is `@paradigminspectionfl`, replace `[YOUR_INSTAGRAM_HANDLE]` with `paradigminspectionfl`
 
@@ -281,8 +281,8 @@ Example: if your handle is `@paradigminspectionfl`, replace `[YOUR_INSTAGRAM_HAN
 
 Replace `[YOUR_FACEBOOK_PAGE]` with your Facebook page name or ID in two places:
 
-- **Line 299** — Contact section Facebook link
-- **Line 346** — Footer Facebook link
+- **Line 337** — Contact section Facebook link
+- **Line 384** — Footer Facebook link
 
 Example: if your Facebook page URL is `facebook.com/ParadigmInspectionFL`, replace `[YOUR_FACEBOOK_PAGE]` with `ParadigmInspectionFL`
 
@@ -333,7 +333,7 @@ Check that GitHub Pages is enabled (Step 3) and that the branch is set to `main`
 Double-check that all four A records are entered correctly at your domain registrar and that the CNAME record for `www` points exactly to `YOUR-USERNAME.github.io`. Contact your domain registrar's support if needed.
 
 **The contact form is not sending emails:**
-Verify that you replaced `[YOUR-FORMSPREE-ID]` in index.html (line 307) with the correct form ID from your Formspree account. Make sure there are no extra spaces or characters around the ID.
+Verify that you replaced `[YOUR-FORMSPREE-ID]` in index.html (line 345) with the correct form ID from your Formspree account. Make sure there are no extra spaces or characters around the ID.
 
 **A change I committed is not showing:**
 Confirm the commit was saved by going to your repository and checking that the file was modified recently (you will see a timestamp next to the file name). Then wait 3 minutes and force-refresh.
