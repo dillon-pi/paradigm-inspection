@@ -4,7 +4,7 @@
 **Phases:** 3
 **Requirements:** 47 mapped
 **Granularity:** Coarse
-**Last updated:** 2026-04-11
+**Last updated:** 2026-04-12
 
 ---
 
@@ -64,7 +64,12 @@ Plans:
   3. Viewing page source shows a LocalBusiness JSON-LD block in `<head>` with name, telephone, email, all four counties in areaServed, and the canonical site URL
   4. The repo root contains `.nojekyll` and the site resolves at its final URL without a Jekyll error; CNAME is committed if a custom domain is configured
   5. A non-technical owner can open HOW-TO-UPDATE.md and identify exactly which lines to edit for each section, and LAUNCH-CHECKLIST.md lists every placeholder with a checkbox so nothing ships unreplaced
-**Plans:** TBD
+**Plans:** 4 plans
+Plans:
+- [ ] 03-01-PLAN.md — SEO meta tags, OG tags, canonical link, and og-image social card
+- [ ] 03-02-PLAN.md — LocalBusiness JSON-LD and favicon generation
+- [ ] 03-03-PLAN.md — CNAME deployment file and .nojekyll verification
+- [ ] 03-04-PLAN.md — HOW-TO-UPDATE.md and LAUNCH-CHECKLIST.md owner documentation
 
 ---
 
