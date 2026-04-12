@@ -10,13 +10,13 @@ Complete every checkbox before going live. Each item maps to a placeholder in th
 
 Replace `[YOUR-PHONE]` (in `tel:` links) and `[YOUR PHONE NUMBER]` (display text) everywhere below.
 
-- [ ] index.html line 42 -- header phone link (desktop top bar)
-- [ ] index.html line 52 -- mobile navigation phone link (hamburger menu)
-- [ ] index.html line 74 -- hero section "Call Now" button
-- [ ] index.html line 196 -- about section "Call Now" button
-- [ ] index.html line 286 -- contact section phone link
-- [ ] index.html line 335 -- footer phone link
-- [ ] index.html head section -- JSON-LD `telephone` field (if JSON-LD has been added)
+- [ ] index.html line 80 -- header phone link (desktop top bar)
+- [ ] index.html line 90 -- mobile navigation phone link (hamburger menu)
+- [ ] index.html line 112 -- hero section "Call Now" button
+- [ ] index.html line 234 -- about section "Call Now" button
+- [ ] index.html line 324 -- contact section phone link
+- [ ] index.html line 373 -- footer phone link
+- [ ] index.html line 34 -- JSON-LD `telephone` field (add your phone number before going live)
 - [ ] 404.html line 21 -- 404 header phone link
 - [ ] 404.html line 31 -- 404 mobile navigation phone link
 - [ ] 404.html line 46 -- 404 error page phone link
@@ -25,51 +25,51 @@ Replace `[YOUR-PHONE]` (in `tel:` links) and `[YOUR PHONE NUMBER]` (display text
 
 Replace `[YOUR-EMAIL]` (in `mailto:` links) and `[YOUR EMAIL ADDRESS]` (display text) everywhere below.
 
-- [ ] index.html line 76 -- hero section "Send Email" button
-- [ ] index.html line 198 -- about section "Send Email" button
-- [ ] index.html line 291 -- contact section email link
-- [ ] index.html line 337 -- footer email link
-- [ ] index.html head section -- JSON-LD `email` field (if JSON-LD has been added)
+- [ ] index.html line 114 -- hero section "Send Email" button
+- [ ] index.html line 236 -- about section "Send Email" button
+- [ ] index.html line 329 -- contact section email link
+- [ ] index.html line 375 -- footer email link
+- [ ] index.html line 34 -- JSON-LD `email` field (add your email address before going live)
 
 ### Inspector Identity
 
-- [ ] index.html line 176 -- replace `[INSPECTOR NAME]` with inspector's full name
-- [ ] index.html line 181 -- replace bio placeholder paragraph with 2-3 sentence personal bio
-- [ ] index.html lines 168-172 -- replace photo placeholder `<div>` with real headshot `<img>` tag
+- [ ] index.html line 214 -- replace `[INSPECTOR NAME]` with inspector's full name
+- [ ] index.html line 219 -- replace bio placeholder paragraph with 2-3 sentence personal bio
+- [ ] index.html line 206 -- replace photo placeholder `<div>` with real headshot `<img>` tag
 
 ### License Number
 
-- [ ] index.html line 184 -- replace `[HI-XXXXX]` in about section with Florida HI license number (format: HI-12345)
-- [ ] index.html line 352 -- replace `[HI-XXXXX]` in footer with same license number
+- [ ] index.html line 222 -- replace `[HI-XXXXX]` in about section with Florida HI license number (format: HI-12345)
+- [ ] index.html line 390 -- replace `[HI-XXXXX]` in footer with same license number
 
 ### Certification Badge
 
-- [ ] index.html lines 188-192 -- replace `[YOUR CERTIFICATION BADGE]` placeholder div with InterNACHI or ASHI badge image, or remove the placeholder div if not yet certified
+- [ ] index.html line 226 -- replace `[YOUR CERTIFICATION BADGE]` placeholder div with InterNACHI or ASHI badge image, or remove the placeholder div if not yet certified
 
 ### Testimonials
 
 Replace all three review cards with real Google or Yelp reviews.
 
-- [ ] index.html line 249 -- testimonial 1: replace review text placeholder
-- [ ] index.html line 250 -- testimonial 1: replace `[REVIEWER NAME]` with reviewer's first name
-- [ ] index.html line 250 -- testimonial 1: replace `[MONTH YEAR]` with review date (e.g., March 2026)
-- [ ] index.html line 255 -- testimonial 2: replace review text placeholder
-- [ ] index.html line 256 -- testimonial 2: replace `[REVIEWER NAME]` with reviewer's first name
-- [ ] index.html line 256 -- testimonial 2: replace `[MONTH YEAR]` with review date
-- [ ] index.html line 261 -- testimonial 3: replace review text placeholder
-- [ ] index.html line 262 -- testimonial 3: replace `[REVIEWER NAME]` with reviewer's first name
-- [ ] index.html line 262 -- testimonial 3: replace `[MONTH YEAR]` with review date
+- [ ] index.html line 287 -- testimonial 1: replace review text placeholder
+- [ ] index.html line 288 -- testimonial 1: replace `[REVIEWER NAME]` with reviewer's first name
+- [ ] index.html line 288 -- testimonial 1: replace `[MONTH YEAR]` with review date (e.g., March 2026)
+- [ ] index.html line 293 -- testimonial 2: replace review text placeholder
+- [ ] index.html line 294 -- testimonial 2: replace `[REVIEWER NAME]` with reviewer's first name
+- [ ] index.html line 294 -- testimonial 2: replace `[MONTH YEAR]` with review date
+- [ ] index.html line 299 -- testimonial 3: replace review text placeholder
+- [ ] index.html line 300 -- testimonial 3: replace `[REVIEWER NAME]` with reviewer's first name
+- [ ] index.html line 300 -- testimonial 3: replace `[MONTH YEAR]` with review date
 
 ### Google Business
 
-- [ ] index.html line 270 -- replace `[YOUR_GOOGLE_BUSINESS_URL]` with Google Business Profile review link (find it at: Google Business Profile Manager > Home > Get more reviews > Share review form)
+- [ ] index.html line 308 -- replace `[YOUR_GOOGLE_BUSINESS_URL]` with Google Business Profile review link (find it at: Google Business Profile Manager > Home > Get more reviews > Share review form)
 
 ### Social Media
 
-- [ ] index.html line 295 -- replace `[YOUR_INSTAGRAM_HANDLE]` in contact section (without @ symbol)
-- [ ] index.html line 342 -- replace `[YOUR_INSTAGRAM_HANDLE]` in footer
-- [ ] index.html line 299 -- replace `[YOUR_FACEBOOK_PAGE]` in contact section with Facebook page name or ID
-- [ ] index.html line 346 -- replace `[YOUR_FACEBOOK_PAGE]` in footer
+- [ ] index.html line 333 -- replace `[YOUR_INSTAGRAM_HANDLE]` in contact section (without @ symbol)
+- [ ] index.html line 380 -- replace `[YOUR_INSTAGRAM_HANDLE]` in footer
+- [ ] index.html line 337 -- replace `[YOUR_FACEBOOK_PAGE]` in contact section with Facebook page name or ID
+- [ ] index.html line 384 -- replace `[YOUR_FACEBOOK_PAGE]` in footer
 
 ---
 
@@ -98,7 +98,7 @@ Replace all three review cards with real Google or Yelp reviews.
 
 - [ ] Formspree account created at formspree.io (free plan)
 - [ ] New form created in Formspree dashboard (name it: Paradigm Inspection Contact)
-- [ ] `[YOUR-FORMSPREE-ID]` replaced in index.html line 307 with the form ID from Formspree (the part after `/f/` in the endpoint URL)
+- [ ] `[YOUR-FORMSPREE-ID]` replaced in index.html line 345 with the form ID from Formspree (the part after `/f/` in the endpoint URL)
 
 ---
 
