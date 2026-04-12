@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+
+  <!-- Company name heading -->
+  <text x="80" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#F5EDD6">PARADIGM INSPECTION</text>
+
+  <!-- Orange horizontal accent bar -->
+  <rect x="80" y="260" width="200" height="6" fill="#E07A2F"/>
+
+  <!-- Subtitle -->
+  <text x="80" y="310" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#F5EDD6">Licensed Home Inspector</text>
+
+  <!-- County list -->
+  <text x="80" y="365" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C0B89A">Palm Beach &#183; Broward &#183; Miami-Dade &#183; Monroe</text>
+
+  <!-- Domain -->
+  <text x="80" y="560" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#E07A2F">paradigminspection.org</text>
+</svg>
