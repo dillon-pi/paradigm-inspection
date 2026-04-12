@@ -27,21 +27,21 @@
 
 ### Hero
 
-- [ ] **HERO-01**: Hero section spans full viewport height with a bold headline, subheadline mentioning South Florida service area, and two CTA buttons (Call Now / Send Email)
-- [ ] **HERO-02**: Hero background uses a brand-color CSS gradient (no stock photo — real photo is a future enhancement)
-- [ ] **HERO-03**: CTA buttons are visually distinct (primary: orange; secondary: outlined) and link to `tel:` and `mailto:` respectively
+- [x] **HERO-01**: Hero section spans full viewport height with a bold headline, subheadline mentioning South Florida service area, and two CTA buttons (Call Now / Send Email)
+- [x] **HERO-02**: Hero background uses a brand-color CSS gradient (no stock photo — real photo is a future enhancement)
+- [x] **HERO-03**: CTA buttons are visually distinct (primary: orange; secondary: outlined) and link to `tel:` and `mailto:` respectively
 
 ### Services
 
-- [ ] **SERV-01**: Services section displays four service cards: Residential Inspections, Commercial Inspections, Specialty Inspections, New Construction Inspections
-- [ ] **SERV-02**: Each service card includes a Lucide icon, a heading, a short benefit-focused description, and a CTA link to the contact section
-- [ ] **SERV-03**: Specialty inspections card explicitly lists the specialty types: mold, radon, sewer, pool, roof
-- [ ] **SERV-04**: Services grid is 2-column on tablet, 1-column on mobile
+- [x] **SERV-01**: Services section displays four service cards: Residential Inspections, Commercial Inspections, Specialty Inspections, New Construction Inspections
+- [x] **SERV-02**: Each service card includes a Lucide icon, a heading, a short benefit-focused description, and a CTA link to the contact section
+- [x] **SERV-03**: Specialty inspections card explicitly lists the specialty types: mold, radon, sewer, pool, roof
+- [x] **SERV-04**: Services grid is 2-column on tablet, 1-column on mobile
 
 ### How It Works
 
-- [ ] **PROC-01**: "How It Works" section displays a numbered 3-step process: Schedule → Inspect → Report
-- [ ] **PROC-02**: Each step includes a number, icon, heading, and 1–2 sentence description
+- [x] **PROC-01**: "How It Works" section displays a numbered 3-step process: Schedule → Inspect → Report
+- [x] **PROC-02**: Each step includes a number, icon, heading, and 1–2 sentence description
 
 ### About
 
@@ -136,15 +136,15 @@
 | NAV-03 | Phase 1 | Pending |
 | NAV-04 | Phase 1 | Pending |
 | DEPLOY-01 | Phase 1 | Pending |
-| HERO-01 | Phase 2 | Pending |
-| HERO-02 | Phase 2 | Pending |
-| HERO-03 | Phase 2 | Pending |
-| SERV-01 | Phase 2 | Pending |
-| SERV-02 | Phase 2 | Pending |
-| SERV-03 | Phase 2 | Pending |
-| SERV-04 | Phase 2 | Pending |
-| PROC-01 | Phase 2 | Pending |
-| PROC-02 | Phase 2 | Pending |
+| HERO-01 | Phase 2 | Complete |
+| HERO-02 | Phase 2 | Complete |
+| HERO-03 | Phase 2 | Complete |
+| SERV-01 | Phase 2 | Complete |
+| SERV-02 | Phase 2 | Complete |
+| SERV-03 | Phase 2 | Complete |
+| SERV-04 | Phase 2 | Complete |
+| PROC-01 | Phase 2 | Complete |
+| PROC-02 | Phase 2 | Complete |
 | ABOUT-01 | Phase 2 | Pending |
 | ABOUT-02 | Phase 2 | Pending |
 | ABOUT-03 | Phase 2 | Pending |
