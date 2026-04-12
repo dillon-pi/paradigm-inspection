@@ -27,4 +27,7 @@
 
 // Initialize AOS (Animate On Scroll) -- scroll-reveal animations
 // Settings per D-07: duration 600ms, play once only, trigger 80px before viewport edge
-AOS.init({ duration: 600, once: true, offset: 80 });
+// Guard protects pages that load script.js without the AOS library (e.g. 404.html)
+if (typeof AOS !== 'undefined') {
+  AOS.init({ duration: 600, once: true, offset: 80 });
+}
