@@ -246,6 +246,19 @@ body {
   text-align: center;
 }
 
+.hero-brand-name {
+  font-family: 'Bebas Neue', var(--font-heading);
+  font-size: clamp(3rem, 8vw, 6rem);
+  letter-spacing: 0.12em;
+  line-height: 1;
+  margin-bottom: var(--space-lg);
+  color: var(--color-cream);
+}
+
+.hero-brand-inspection {
+  color: var(--color-orange);
+}
+
 .hero-headline {
   font-family: var(--font-heading);
   font-size: clamp(2rem, 5vw, 3.5rem);
