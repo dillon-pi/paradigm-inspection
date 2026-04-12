@@ -45,22 +45,22 @@
 
 ### About
 
-- [ ] **ABOUT-01**: About section includes a placeholder photo area (labeled "YOUR PHOTO HERE"), a bio placeholder with editing prompts, and the owner's name
-- [ ] **ABOUT-02**: About section displays Florida HI license number (placeholder: "License #[HI-XXXXX] — replace before launch")
-- [ ] **ABOUT-03**: About section includes a certification badge placeholder for InterNACHI/ASHI (with instructions to add the badge when certified)
-- [ ] **ABOUT-04**: About section ends with a CTA (Call or Email)
+- [x] **ABOUT-01**: About section includes a placeholder photo area (labeled "YOUR PHOTO HERE"), a bio placeholder with editing prompts, and the owner's name
+- [x] **ABOUT-02**: About section displays Florida HI license number (placeholder: "License #[HI-XXXXX] — replace before launch")
+- [x] **ABOUT-03**: About section includes a certification badge placeholder for InterNACHI/ASHI (with instructions to add the badge when certified)
+- [x] **ABOUT-04**: About section ends with a CTA (Call or Email)
 
 ### Service Area
 
-- [ ] **AREA-01**: Service area section names all four counties: Palm Beach, Broward, Miami-Dade, Monroe
-- [ ] **AREA-02**: Service area section lists representative cities per county (Boca Raton, Delray Beach, Fort Lauderdale, Miami, Key West, etc.)
-- [ ] **AREA-03**: Service area copy includes a brief mention of South Florida-specific inspection concerns (humidity, mold, hurricane straps)
+- [x] **AREA-01**: Service area section names all four counties: Palm Beach, Broward, Miami-Dade, Monroe
+- [x] **AREA-02**: Service area section lists representative cities per county (Boca Raton, Delray Beach, Fort Lauderdale, Miami, Key West, etc.)
+- [x] **AREA-03**: Service area copy includes a brief mention of South Florida-specific inspection concerns (humidity, mold, hurricane straps)
 
 ### Social Proof
 
-- [ ] **SOCIAL-01**: Testimonials section displays three placeholder review cards with bracketed prompts ("[5-star Google review from recent client]")
-- [ ] **SOCIAL-02**: Each testimonial card includes a placeholder name, placeholder date, star rating display, and review text
-- [ ] **SOCIAL-03**: Testimonials section includes a "Review Us on Google" link placeholder (labeled with instructions)
+- [x] **SOCIAL-01**: Testimonials section displays three placeholder review cards with bracketed prompts ("[5-star Google review from recent client]")
+- [x] **SOCIAL-02**: Each testimonial card includes a placeholder name, placeholder date, star rating display, and review text
+- [x] **SOCIAL-03**: Testimonials section includes a "Review Us on Google" link placeholder (labeled with instructions)
 
 ### Contact
 
@@ -145,16 +145,16 @@
 | SERV-04 | Phase 2 | Complete |
 | PROC-01 | Phase 2 | Complete |
 | PROC-02 | Phase 2 | Complete |
-| ABOUT-01 | Phase 2 | Pending |
-| ABOUT-02 | Phase 2 | Pending |
-| ABOUT-03 | Phase 2 | Pending |
-| ABOUT-04 | Phase 2 | Pending |
-| AREA-01 | Phase 2 | Pending |
-| AREA-02 | Phase 2 | Pending |
-| AREA-03 | Phase 2 | Pending |
-| SOCIAL-01 | Phase 2 | Pending |
-| SOCIAL-02 | Phase 2 | Pending |
-| SOCIAL-03 | Phase 2 | Pending |
+| ABOUT-01 | Phase 2 | Complete |
+| ABOUT-02 | Phase 2 | Complete |
+| ABOUT-03 | Phase 2 | Complete |
+| ABOUT-04 | Phase 2 | Complete |
+| AREA-01 | Phase 2 | Complete |
+| AREA-02 | Phase 2 | Complete |
+| AREA-03 | Phase 2 | Complete |
+| SOCIAL-01 | Phase 2 | Complete |
+| SOCIAL-02 | Phase 2 | Complete |
+| SOCIAL-03 | Phase 2 | Complete |
 | CONTACT-01 | Phase 2 | Pending |
 | CONTACT-02 | Phase 2 | Pending |
 | CONTACT-03 | Phase 2 | Pending |
