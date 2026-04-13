@@ -98,7 +98,7 @@ Replace all three review cards with real Google or Yelp reviews.
 
 - [ ] Formspree account created at formspree.io (free plan)
 - [ ] New form created in Formspree dashboard (name it: Paradigm Inspection Contact)
-- [ ] `[YOUR-FORMSPREE-ID]` replaced in index.html line 345 with the form ID from Formspree (the part after `/f/` in the endpoint URL)
+- [x] `[YOUR-FORMSPREE-ID]` replaced in index.html line 345 with the form ID from Formspree (the part after `/f/` in the endpoint URL)
 
 ---
 
