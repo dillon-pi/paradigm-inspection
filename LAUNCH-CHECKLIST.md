@@ -10,30 +10,30 @@ Complete every checkbox before going live. Each item maps to a placeholder in th
 
 Replace `[YOUR-PHONE]` (in `tel:` links) and `[YOUR PHONE NUMBER]` (display text) everywhere below.
 
-- [ ] index.html line 80 -- header phone link (desktop top bar)
-- [ ] index.html line 90 -- mobile navigation phone link (hamburger menu)
-- [ ] index.html line 112 -- hero section "Call Now" button
-- [ ] index.html line 234 -- about section "Call Now" button
-- [ ] index.html line 324 -- contact section phone link
-- [ ] index.html line 373 -- footer phone link
-- [ ] index.html line 34 -- JSON-LD `telephone` field (add your phone number before going live)
-- [ ] 404.html line 21 -- 404 header phone link
-- [ ] 404.html line 31 -- 404 mobile navigation phone link
-- [ ] 404.html line 46 -- 404 error page phone link
+- [x] index.html line 80 -- header phone link (desktop top bar)
+- [x] index.html line 90 -- mobile navigation phone link (hamburger menu)
+- [x] index.html line 112 -- hero section "Call Now" button
+- [x] index.html line 234 -- about section "Call Now" button
+- [x] index.html line 324 -- contact section phone link
+- [x] index.html line 373 -- footer phone link
+- [x] index.html line 34 -- JSON-LD `telephone` field
+- [x] 404.html line 21 -- 404 header phone link
+- [x] 404.html line 31 -- 404 mobile navigation phone link
+- [x] 404.html line 46 -- 404 error page phone link
 
 ### Email Address
 
 Replace `[YOUR-EMAIL]` (in `mailto:` links) and `[YOUR EMAIL ADDRESS]` (display text) everywhere below.
 
-- [ ] index.html line 114 -- hero section "Send Email" button
-- [ ] index.html line 236 -- about section "Send Email" button
-- [ ] index.html line 329 -- contact section email link
-- [ ] index.html line 375 -- footer email link
-- [ ] index.html line 34 -- JSON-LD `email` field (add your email address before going live)
+- [x] index.html line 114 -- hero section "Send Email" button
+- [x] index.html line 236 -- about section "Send Email" button
+- [x] index.html line 329 -- contact section email link
+- [x] index.html line 375 -- footer email link
+- [x] index.html line 34 -- JSON-LD `email` field
 
 ### Inspector Identity
 
-- [ ] index.html line 214 -- replace `[INSPECTOR NAME]` with inspector's full name
+- [x] index.html line 214 -- replace `[INSPECTOR NAME]` with inspector's full name
 - [ ] index.html line 219 -- replace bio placeholder paragraph with 2-3 sentence personal bio
 - [ ] index.html line 206 -- replace photo placeholder `<div>` with real headshot `<img>` tag
 
@@ -75,17 +75,17 @@ Replace all three review cards with real Google or Yelp reviews.
 
 ## Deployment
 
-- [ ] GitHub repository created (named `paradigm-inspection`, set to Public)
+- [x] GitHub repository created at https://github.com/dillon-pi/paradigm-inspection (Public)
 - [ ] All website files uploaded to repository and committed
 - [ ] GitHub Pages enabled (Settings > Pages > Source: Deploy from a branch > main / root > Save)
-- [ ] `.nojekyll` file present at repo root (prevents GitHub from processing the site with Jekyll)
-- [ ] `CNAME` file present at repo root (contains exactly: `paradigminspection.org`)
+- [x] `.nojekyll` file present at repo root (prevents GitHub from processing the site with Jekyll)
+- [x] `CNAME` file present at repo root (contains exactly: `paradigminspection.org`)
 - [ ] DNS A records added at domain registrar -- all four IP addresses:
   - `185.199.108.153`
   - `185.199.109.153`
   - `185.199.110.153`
   - `185.199.111.153`
-- [ ] DNS CNAME record added for `www` subdomain pointing to `YOUR-USERNAME.github.io`
+- [ ] DNS CNAME record added for `www` subdomain pointing to `dillon-pi.github.io`
 - [ ] Custom domain entered in GitHub Pages settings (Settings > Pages > Custom domain > `paradigminspection.org`)
 - [ ] "Enforce HTTPS" checkbox checked in GitHub Pages settings (available after DNS check passes)
 - [ ] `og-image.png` exists at repo root -- export from `og-image.svg` (must be 1200x630 px PNG; SVG is not supported by Facebook, Twitter/X, or iMessage for social preview cards -- see D-07)
