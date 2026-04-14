@@ -33,18 +33,18 @@ Replace `[YOUR-EMAIL]` (in `mailto:` links) and `[YOUR EMAIL ADDRESS]` (display 
 
 ### Inspector Identity
 
-- [x] index.html line 214 -- replace `[INSPECTOR NAME]` with inspector's full name
-- [ ] index.html line 219 -- replace bio placeholder paragraph with 2-3 sentence personal bio
-- [ ] index.html line 206 -- replace photo placeholder `<div>` with real headshot `<img>` tag
+- [x] index.html -- inspector name: Dillon Miyares
+- [x] index.html -- bio: filled in
+- [ ] index.html -- replace photo placeholder `<div>` with real headshot `<img>` tag
 
 ### License Number
 
-- [ ] index.html line 222 -- replace `[HI-XXXXX]` in about section with Florida HI license number (format: HI-12345)
-- [ ] index.html line 390 -- replace `[HI-XXXXX]` in footer with same license number
+- [x] index.html -- license #HI-15688 in about section
+- [x] index.html -- license #HI-15688 in footer
 
 ### Certification Badge
 
-- [ ] index.html line 226 -- replace `[YOUR CERTIFICATION BADGE]` placeholder div with InterNACHI or ASHI badge image, or remove the placeholder div if not yet certified
+- [x] index.html -- InterNACHI cert link added (NACHI21082362)
 
 ### Testimonials
 
@@ -66,17 +66,16 @@ Replace all three review cards with real Google or Yelp reviews.
 
 ### Social Media
 
-- [ ] index.html line 333 -- replace `[YOUR_INSTAGRAM_HANDLE]` in contact section (without @ symbol)
-- [ ] index.html line 380 -- replace `[YOUR_INSTAGRAM_HANDLE]` in footer
-- [ ] index.html line 337 -- replace `[YOUR_FACEBOOK_PAGE]` in contact section with Facebook page name or ID
-- [ ] index.html line 384 -- replace `[YOUR_FACEBOOK_PAGE]` in footer
+- [x] index.html -- Instagram @paradigminspection (contact section)
+- [x] index.html -- Instagram @paradigminspection (footer)
+- [x] index.html -- Facebook removed (not yet active)
 
 ---
 
 ## Deployment
 
 - [x] GitHub repository created at https://github.com/dillon-pi/paradigm-inspection (Public)
-- [ ] All website files uploaded to repository and committed
+- [x] All website files uploaded to repository and committed
 - [ ] GitHub Pages enabled (Settings > Pages > Source: Deploy from a branch > main / root > Save)
 - [x] `.nojekyll` file present at repo root (prevents GitHub from processing the site with Jekyll)
 - [x] `CNAME` file present at repo root (contains exactly: `paradigminspection.org`)
