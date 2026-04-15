@@ -81,7 +81,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--space-lg);
-  height: 72px;
+  height: 92px;
 }
 
 .logo-link {
@@ -90,7 +90,7 @@ body {
 }
 
 .logo {
-  max-height: 48px;
+  max-height: 80px;
   width: auto;
 }
 
